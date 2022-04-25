@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:background="#008580">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textStyle="italic|bold"/>
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="148dp"
+        android:id="@+id/linearlayout5"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foto1"
+            android:id="@+id/img1"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=": Nama :\nDimas Tri Purwoko"
+        android:textStyle="italic|bold"
+        android:background="#ad7f39"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=": Alamat :\nJl.Sui Raya Dalam\nKomp.Royal Serdam Residence 1\n Blok A.8"
+        android:textStyle="italic|bold"
+        android:background="#309691"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=": Username :\ndimastp"
+        android:textStyle="italic|bold"
+        android:background="#881DAE"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="27sp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=": NIM :\n191103609"
+        android:textStyle="italic|bold"
+        android:background="#ad3947"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
